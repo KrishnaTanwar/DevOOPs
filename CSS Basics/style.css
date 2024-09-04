@@ -1,4 +1,86 @@
+/* /* element selector 
+
 h1{
     color:aqua;
     background-color: bisque;
 }
+
+/* id selector */
+
+/* #sam{
+    font-size: 100px;
+} */
+
+/* Class Selector */
+
+/* .tanwar{
+    font-size: 500px;
+} */
+
+/* Universal selector */
+/* 
+*{
+    border: 5px solid rebeccapurple;
+} */
+
+/* Attribute selector */
+
+/* input[type = 'text']{
+    background-color: blue;
+
+} */
+
+/* a[href="http://wwww.google.com"]{
+    background-color: red;
+    font-size: 100px;
+} */
+
+/* a[href="http://wwww.meta.com"]{
+    background-color: blue;
+    font-size: 100px;
+}  */ */
+
+
+div{
+    background-color: red;
+}
+
+div:hover{
+    background-color: green;
+}
+
+input{
+    background-color: aqua;
+}
+
+input:focus{
+    background-color: blanchedalmond;
+    font-size: 100px;
+}
+
+a{
+    font-size: 12px;
+}
+
+a:active{
+    color: aqua;
+}
+
+a:visited{
+    color:yellow;
+}
+
+dt {
+    font-weight: bold;
+  }
+  
+  dd {
+    margin: 3px;
+  }
+  
+  dd:nth-of-type(odd
+  ) {
+    border: 2px dashed    orange;
+  }
+
+  
