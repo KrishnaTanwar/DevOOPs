@@ -1,0 +1,30 @@
+h1::first-line{
+    color: red;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+p::first-letter{
+    font-size: 50px;
+    color: blue;
+}
+
+h4::after{
+    content: "This is Krishna";
+}
+
+h4::before{
+    content:"Hey Guys"
+}
+
+h1{
+     color:rgb(200, 100, 10)  /*rgb: range from 0-255 */
+}
+
+h4{
+     color:rgba(150, 100, 50, 1) /* Value of alpha lies between 0 & 1. */
+}
+
+p{
+    color: #4545ff
+}

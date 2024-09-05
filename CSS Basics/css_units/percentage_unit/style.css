@@ -1,0 +1,10 @@
+section{
+    width: 500px;
+    background-color: aqua;
+}
+
+div{
+    width: 50%;
+    background-color: red;
+    border: 1px dashed blue;
+}
